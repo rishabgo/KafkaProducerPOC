@@ -1,12 +1,11 @@
 package com.kafka.libraryeventsproducer.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+@Data
 public class Book {
 
     private String bookId;
